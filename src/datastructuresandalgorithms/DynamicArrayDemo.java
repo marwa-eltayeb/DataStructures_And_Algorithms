@@ -3,7 +3,7 @@ package datastructuresandalgorithms;
 import datastructuresandalgorithms.DataStructure.DynamicArray;
 
 
-public class DataStructuresAndAlgorithms {
+public class DynamicArrayDemo {
 
     public static void main(String[] args) {
         
