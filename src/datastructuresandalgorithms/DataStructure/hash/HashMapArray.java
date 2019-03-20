@@ -52,7 +52,7 @@ public class HashMapArray<T> {
             }
             arrayValue = arrayValue.next;
         }
-        // retuen the wanted value
+        // return the wanted value
         return value;
     }
 
