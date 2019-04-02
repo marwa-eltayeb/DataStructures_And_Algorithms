@@ -1,6 +1,5 @@
 package algorithms.searching;
 
-import static algorithms.searching.LinearSearch.search;
 
 /**
  *
