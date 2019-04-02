@@ -10,7 +10,7 @@ public class InterpolationSearch {
     public static void main(String[] args) {
 
         // Implement Binary Search using search Method
-        int[] myNumbers = {23, 34, 53, 72, 84, 62};
+        int[] myNumbers = {45, 54, 53, 72, 84, 62};
         System.out.println(search(myNumbers, 34));
         
     }

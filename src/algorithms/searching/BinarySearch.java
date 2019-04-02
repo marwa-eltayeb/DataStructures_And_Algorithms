@@ -1,6 +1,5 @@
 package algorithms.searching;
 
-
 /**
  *
  * @author Marwa
@@ -47,8 +46,8 @@ public class BinarySearch {
         }
 
         // Implement Binary Search using search Method
-        int[] myNumbers = {23, 34, 53, 72, 84, 62};
-        System.out.println(search(myNumbers, 34));
+        int[] myNumbers = {11, 12, 13, 14, 15, 16};
+        System.out.println(search(myNumbers, 13));
 
     }
 
