@@ -11,8 +11,8 @@ public class LinearSearch {
         int size = 1000000;
         int[] numbers = new int[size];
         for (int i = 0; i < size; i++) {
-            // Add Numbers in the array
-            numbers[0] = i + 1;
+            // Add Numbers to the array
+            numbers[i] = i + 1;
         }
 
         // Linear Search
