@@ -7,7 +7,11 @@ package algorithms.sorting;
 public class SelectionSort {
     
     public static void main(String[] args) {
-    
+        
+         int[] array={1,50,30,10,60,80};
+	 selectionSort(array);
+	 for(int i=0;i<array.length;i++)
+	 System.out.print(array[i] +"\t");
     }
     
     static void selectionSort(int[] arr){
