@@ -8,6 +8,7 @@ public class SelectionSort {
 
     public static void main(String[] args) {
 
+        // Implement Selection Sort
         int[] array = {4, 9, 7, 1, 3, 6, 5};
         selectionSort(array);
         for (int i = 0; i < array.length; i++) {
