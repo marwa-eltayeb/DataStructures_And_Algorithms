@@ -1,7 +1,5 @@
 package algorithms.sorting;
 
-import static algorithms.sorting.BubbleSort.bubbleSort;
-
 /**
  *
  * @author Marwa
@@ -10,7 +8,12 @@ public class InsertionSort {
     
     public static void main(String[] args) {
         
-        
+        // Implement Insertion Sort
+        int[] array = {10, 4, 3, 5, 7, 9};
+        insertionSort(array);
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + "\t");
+        }
         
     }
 
